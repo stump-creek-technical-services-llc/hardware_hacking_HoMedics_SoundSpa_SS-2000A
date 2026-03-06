@@ -6,13 +6,13 @@
 #   . device.sh
 #   echo "Nice ${DEV_NAME} you have there."
 
-export DEV_MFR=GizmoTek
-export DEV_NAME=Gizmo
-export DEV_PN=1234
-export DEV_VER=1
+export DEV_MFR=HoMedics
+export DEV_NAME=SoundSpa
+export DEV_PN=SS-2000A
+export DEV_VER=
 
-export DEV_TAG=GizmoTek_Gizmo_1234_v1
-export DEV_TAG_SC=gizmotek_gizmo_1234_v1
+export DEV_TAG=HoMedics_SoundSpa_SS-2000A
+export DEV_TAG_SC=homedics_soundspa_ss-2000a
 
 export FW_RESET_FILENAME=${DEV_TAG_SC}.reset.bin
 export FW_FILENAME=${DEV_TAG_SC}.bin
